@@ -4,24 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebStudio</title>
-</head>
+    
+    <link href="css/styles.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet"/>
 
+    <title>WebStudio</title>
+
+</head>
 
 
 <body>
     <header>
+        
         <a href="#">WebStudio</a>
         <nav>
             <ul>
-                <li><a href="#">Estudio</a></li>
-                <li><a href="#">Portafolio</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li>
+                    <button href="./index.html">Estudio</button>
+                </li>
+                <li>
+                    <button href="./portafolio.html">Portafolio</button>
+                </li>
+                <li>
+                    <button class="link" href="#">Contacto</button>
+                </li>
             </ul>
         </nav>
         <ul>
             <li>
-                <a href="emailto:info@devstudio.com">info@devstudio.com</a>
+                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
             <li>
                 <a href="tel:+525555296000">+52 555 529 60 00</a>
@@ -30,22 +42,22 @@
     </header>
     
 
-     <main>
+    <main>
         <section>
-            <h1>SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-            <button onclick="solicitenuestrosservicio">Solicite nuestros servicio</button>
+            <h1 class="text-align"> SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+            <button class="solicite" type="button">Solicite nuestros servicio</button>
         </section>
 
 
         <section>
-             <ul>
+            <ul>
                 <li>
                     <h2>ATENCIÓN A LOS DETALLES</h2>
                     <p>Nos adentramos en todos los detalles y procesos de su negocio, para así desarrollar una solución a su medida.</p>
                 </li>
 
                 <li>
-                     <h2>PUNTUALIDAD</h2>
+                    <h2>PUNTUALIDAD</h2>
                     <p>Con nosotros, usted puede sentirse seguro y protegido. Un principio importante de la empresa: respetar su tiempo y respetar los plazos acordados.</p>
                 </li>
 
@@ -62,18 +74,18 @@
         </section>
 
         <section>
-        <h2>A qué nos dedicamos</h2>
+        <h2> A qué nos dedicamos</h2>
         <ul>
             <li>
-                <img src="./Imagenes/One.jpg"alt="digitando en un pc"width="373.16"height="323.7">
+                <img src="./Imagenes/One.jpg" alt="digitando en un pc" width="373" height="323">
             </li>
 
             <li>
-                <img src="./Imagenes/Two.jpg"alt="celular y pc"width="373.16"height="323.7">
+                <img src="./Imagenes/Two.jpg" alt="celular y pc" width="373" height="323">
             </li>
 
             <li>
-                <img src="./Imagenes/Three.jpg"alt="Ipad"width="373.16"height="323.7">
+                <img src="./Imagenes/Three.jpg" alt="Ipad" width="373" height="323">
             </li>
 
         </ul>
@@ -85,28 +97,28 @@
             <h2>Nuestro Equipo</h2>
             <ul>
 
-                 <li>
-                    <img src="./Imagenes/img 1.jpg"alt="Andrés"width="270"height="260">
-                   <h3>Andrés Cubo</h3>
-                   <p>Diseñador de Productos</p>
-                 </li>
-
-                 <li>
-                    <img src="./Imagenes/img 2.jpg"alt="Carla"width="270"height="260">
-                  <h3>Carla Palacios</h3>
-                  <p>Desarrolladora Frontend</p>
-                </li>
-
-                 <li>
-                    <img src="./Imagenes/img 3.jpg"alt="Mario"width="270"height="260">
-                  <h3>Mario Dorado</h3>
-                  <p>Marketing</p>
+                <li>
+                    <img src="./Imagenes/img1.jpg" alt="Andrés" width="270" height="260">
+                <h3>Andrés Cubo</h3>
+                <p>Diseñador de Productos</p>
                 </li>
 
                 <li>
-                    <img src="./Imagenes/img 4.jpg"alt="Pablo"width="270"height="260">
-                  <h3>Pablo Mijangos</h3>
-                  <p>Diseñador IU</p>
+                    <img src="./Imagenes/img2.jpg" alt="Carla" width="270" height="260">
+                <h3>Carla Palacios</h3>
+                <p>Desarrolladora Frontend</p>
+                </li>
+
+                <li>
+                    <img src="./Imagenes/img3.jpg" alt="Mario" width="270" height="260">
+                <h3>Mario Dorado</h3>
+                <p>Marketing</p>
+                </li>
+
+                <li>
+                    <img src="./Imagenes/img4.jpg" alt="Pablo" width="270" height="260">
+                <h3>Pablo Mijangos</h3>
+                <p>Diseñador IU</p>
                 </li>
 
             </ul>
@@ -114,25 +126,28 @@
         </section>
     
 
-     </main> 
+    </main> 
 
-     <footer>
-        <a href="#">WebStudio</a>
+    <footer>
+        <a class="titulo" href="#">WebStudio</a>
+
         <address>
             <ul>
                 <li>
-                    <a href="#">Calz. Ticomnán 500, Ciudad de México, CDMX, México</a>
+                    <a href="Dirección">Calz. Ticomnán 500, Ciudad de México, CDMX, México</a>
                 </li>
+
                 <li>
                     <a href="emailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
+
                 <li>
                     <a href="tel:+525555296000">+52 555 529 60 00</a>
                 </li>
 
             </ul>
         </address>
-     </footer>
+    </footer>
 
 </body>
 </html>
